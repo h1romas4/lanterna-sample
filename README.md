@@ -10,7 +10,7 @@ This repos provide Lanterna sample source in Groovy.
 
 ## Screenshot
 
-![screenshot](https://github.com/h1romas4/lanterna-sample/docs/lanterna-sample.png)
+![screenshot](https://github.com/h1romas4/lanterna-sample/blob/master/docs/lanterna-sample.png)
 
 ## Development
 
