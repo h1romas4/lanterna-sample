@@ -1,0 +1,21 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+mainClassName = "LanternaSample"
+
+jar {
+    archiveName = project.name + '-all.jar'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.11'
+    compile 'com.googlecode.lanterna:lanterna:3.0.0-rc1'
+}
