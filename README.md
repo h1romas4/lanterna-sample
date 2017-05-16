@@ -1,6 +1,6 @@
 # Lanterna Sample
 
-This repos provide Lanterna sample source in Groovy.
+This repos provide Lanterna sample source by Groovy.
 
 ## Lanterna
 
