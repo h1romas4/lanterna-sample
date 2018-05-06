@@ -17,5 +17,5 @@ jar {
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.11'
-    compile 'com.googlecode.lanterna:lanterna:3.0.0-rc1'
+    compile 'com.googlecode.lanterna:lanterna:3.0.0'
 }
