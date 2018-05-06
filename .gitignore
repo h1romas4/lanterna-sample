@@ -1,5 +1,5 @@
 .gradle/
-.setting/
+.settings/
 .idea/
 .vscode/
 bin/
