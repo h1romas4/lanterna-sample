@@ -46,7 +46,7 @@ class LanternaSample {
         table = new Table<String>(["hostname", "IP address", "OS", "version"] as String[])
         def model = table.getTableModel()
         10.times {
-            model.addRow(["www${it}.maple4ever.net", "10.0.0.${it}", "CentOS", "7.2"] as String[])
+            model.addRow(["www${it}.maple4ever.net", "10.0.0.${it + 1}", "CentOS", "7.2"] as String[])
         }
         /*
         table.setVisibleRows(screen.getTerminalSize().getRows() - 8)
