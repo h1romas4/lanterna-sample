@@ -1,5 +1,7 @@
 # Lanterna Sample
 
+![](https://github.com/h1romas4/lanterna-sample/workflows/Java%20CI/badge.svg)
+
 This repos provide Lanterna sample source by Groovy.
 
 ## Lanterna
