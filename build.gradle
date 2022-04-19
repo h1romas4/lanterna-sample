@@ -2,7 +2,7 @@ apply plugin: 'groovy'
 apply plugin: 'application'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 mainClassName = "LanternaSample"
@@ -16,6 +16,6 @@ jar {
 }
 
 dependencies {
-    compile 'org.codehaus.groovy:groovy-all:3.0.8'
+    compile 'org.codehaus.groovy:groovy-all:3.0.10'
     compile 'com.googlecode.lanterna:lanterna:3.1.1'
 }
