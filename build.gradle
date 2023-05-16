@@ -1,5 +1,5 @@
 plugins {
-    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
 apply plugin: 'groovy'
@@ -12,13 +12,12 @@ repositories {
 mainClassName = "LanternaSample"
 
 jar {
-    archiveName = project.name + '-all.jar'
     manifest {
         attributes 'Main-Class': mainClassName
     }
 }
 
 dependencies {
-    implementation 'org.codehaus.groovy:groovy-all:3.0.10'
+    implementation 'org.apache.groovy:groovy-all:4.0.12'
     implementation 'com.googlecode.lanterna:lanterna:3.1.1'
 }
