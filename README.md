@@ -17,7 +17,7 @@ This repos provide Lanterna sample source by Groovy.
 ## Development
 
 ```
-$ git clone git@github.com:h1romas4/lanterna-sample.git
+$ git clone https://github.com/h1romas4/lanterna-sample.git
 $ cd lanterna-sample
 $ ./gradlew shadowJar
 $ java -jar build/libs/lanterna-sample-all.jar
