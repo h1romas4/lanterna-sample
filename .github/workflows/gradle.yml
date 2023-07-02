@@ -9,9 +9,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+
     - name: Set up JDK 17
       uses: actions/setup-java@v1
       with:
         java-version: 17
+
     - name: Build with Gradle
       run: ./gradlew shadowJar
+
+    - name: Check
+      run: |
+        TARGET=build/libs/lanterna-sample-all.jar
+        ls -laF ${TARGET}
+        file ${TARGET} | grep archive
+        md5sum ${TARGET}
