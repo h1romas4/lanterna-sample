@@ -22,5 +22,5 @@ jar {
 
 dependencies {
     implementation 'org.apache.groovy:groovy-all:4.0.13'
-    implementation 'com.googlecode.lanterna:lanterna:3.1.1'
+    implementation 'com.googlecode.lanterna:lanterna:3.1.2'
 }
